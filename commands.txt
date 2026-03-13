@@ -1,0 +1,14 @@
+venv\Scripts\activate (at the start each time)
+git pull (also at start)
+
+when finished coding:
+git add .
+git commit -m "comments for push"
+git push
+
+to start app:
+python manage.py runserver
+
+when changing models (migrating)
+py manage.py makemigrations
+py manage.py migrate
